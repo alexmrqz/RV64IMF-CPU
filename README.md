@@ -1,3 +1,3 @@
 # RV64IMF  CPU 
 ## An Implementation and Optimization Case Study
-RISC-V CPU implemented in Verilog RTL with full simulation and verification. After the baseline is complete, key modules will be replaced with custom blocks to compare area, power, timing, and development time tradeoffs.
+This project implements a single-cycle RISC-V CPU core (RV64IMF) in Verilog RTL with full simulation and verification. It’s structured in two phases. Phase one is a baseline RTL implementation using standard synthesizable modules and automated tool flows. Phase two replaces select modules with custom-optimized versions, including layout where applicable. The goal is to evaluate the tradeoffs between design automation and hand-tuned hardware in terms of area, power, timing, and development effort. This is both a learning project and a way to demonstrate practical VLSI design skills across the full stack.
