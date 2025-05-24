@@ -1,3 +1,3 @@
 # RV64IMF  CPU 
-## Implementation and Optimization Case Study
-Implementing a RISC-V CPU in Verilog RTL with full simulation and verification. Once baseline is done, I’ll replace key modules with custom blocks and compare area, power, timing, and dev time to evaluate tradeoffs.
+## An Implementation and Optimization Case Study
+RISC-V CPU implemented in Verilog RTL with full simulation and verification. After the baseline is complete, key modules will be replaced with custom blocks to compare area, power, timing, and development time tradeoffs.
